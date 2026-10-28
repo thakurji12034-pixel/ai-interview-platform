@@ -1,0 +1,34 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "AI Interview Platform backend",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Vandana Tanwar",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "*",
+    "cors": "*",
+    "dotenv": "*",
+    "express": "*",
+    "express-rate-limit": "*",
+    "helmet": "*",
+    "joi": "*",
+    "jsonwebtoken": "*",
+    "morgan": "*",
+    "mysql2": "*",
+    "sequelize": "*",
+    "socket.io": "*"
+  },
+  "devDependencies": {
+    "jest": "*",
+    "nodemon": "*",
+    "supertest": "*"
+  }
+}
